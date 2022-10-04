@@ -1,6 +1,6 @@
-FROM tiangolo/uvicorn-gunicorn:python3.8
+FROM featureoverload/uvicorn-gunicorn:python3.8
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="FeatureOverload <featureoverload@gmail.com>"
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
