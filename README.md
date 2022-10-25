@@ -1,5 +1,20 @@
 [![Test](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions?query=workflow%3ADeploy)
 
+
+## Supported multi-platform images
+
+docker image: [featureoverload/uvicorn-gunicorn-fastapi](https://hub.docker.com/r/featureoverload/uvicorn-gunicorn-fastapi)
+
+supported multi-platform: linux/amd64, linux/arm64.
+
+supported tags of multi-platform image:
+
+- `python3.9`
+- `python3.8`
+
+------
+
+
 ## Supported tags and respective `Dockerfile` links
 
 * [`python3.9`, `latest` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9.dockerfile)
